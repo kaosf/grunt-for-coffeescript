@@ -4,6 +4,7 @@ module.exports = (grunt) ->
       compile:
         files:
           'app/a.js': ['coffee/a.coffee']
+          # 'app/*.js': ['coffee/*.coffee'] # NG (app/*.js (really '*' character) is generated)
         options:
           bare: true
 
