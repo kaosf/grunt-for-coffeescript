@@ -1,0 +1,7 @@
+{
+  "name": "grunt-coffee-exp",
+  "version": "0.0.0",
+  "devDependencies": {
+    "grunt-contrib-coffee": "*"
+  }
+}
